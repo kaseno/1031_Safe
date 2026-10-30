@@ -53,7 +53,7 @@
 <div class="wrap">
 <header>
   <h1>東京單人行程</h1>
-  <p>2026/10/31（六）~ 11/3（二）｜單人旅行｜主行程：11/1 東京迪士尼</p>
+  <p>2026/10/31（六）~ 11/3（二）｜單人旅行｜主行程：11/1 東京迪士尼海洋</p>
 </header>
 
 <div class="flights">
@@ -64,13 +64,13 @@
 <a class="home-btn" href="https://www.google.com/maps/dir/?api=1&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit" target="_blank">🏠 一鍵導航回飯店（門前仲町站 6 號出口步行 2 分）</a>
 
 <div class="tabs">
-  <button class="tab on" onclick="go(0,this)">10/31<small>六・抵達</small></button>
-  <button class="tab" onclick="go(1,this)">11/1<small>日・迪士尼</small></button>
+  <button class="tab on" onclick="go(0,this)">10/31<small>六・銀座</small></button>
+  <button class="tab" onclick="go(1,this)">11/1<small>日・海洋</small></button>
   <button class="tab" onclick="go(2,this)">11/2<small>一・淺草</small></button>
   <button class="tab" onclick="go(3,this)">11/3<small>二・回程</small></button>
   <button class="tab cat" onclick="go(4,this)">🍗 飲食</button>
   <button class="tab cat" onclick="go(5,this)">🚇 交通</button>
-  <button class="tab cat" onclick="go(6,this)">🆘 安全</button>
+  <button class="tab cat" onclick="go(6,this)">🎒 備選</button>
   <button class="tab cat" onclick="go(7,this)">📋 資訊</button>
 </div>
 
@@ -82,65 +82,94 @@
     <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E9%A7%85&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit">🚆 羽田T3→飯店</a></div></div>
   <div class="stop"><span class="t">13:00</span><h3>飯店寄放行李</h3><p>Check-in 14:00，先寄放行李再出門。</p>
     <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=walking">📍 飯店</a></div></div>
-  <div class="stop food"><span class="t">13:15</span><h3>午餐：深川めし（深川宿 富岡八幡店）</h3><p>江戶下町的蛤蜊飯。點「炊き込み」（蛤蜊與飯一起炊熟）✅ 全熟。週末 11:00 ~ 17:00（L.O. 16:30），週一公休。店就在富岡八幡宮境內。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%B7%B1%E5%B7%9D%E5%AE%BF%20%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E5%AF%8C%E5%B2%A11-23-11&travelmode=walking">📍 深川宿</a></div></div>
-  <div class="stop"><span class="t">14:15</span><h3>富岡八幡宮 → 深川不動堂</h3><p>兩處步行 5 分內，都在飯店附近。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA&travelmode=walking">📍 富岡八幡宮</a><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%88%90%E7%94%B0%E5%B1%B1%E6%9D%B1%E4%BA%AC%E5%88%A5%E9%99%A2%20%E6%B7%B1%E5%B7%9D%E4%B8%8D%E5%8B%95%E5%A0%82&travelmode=walking">📍 深川不動堂</a></div></div>
-  <div class="stop"><span class="t">15:15</span><h3>清澄庭園</h3><p>日式迴遊庭園，水池與踏石很好拍。09:00 ~ 17:00（16:30 前入園），門票 150 円。大江戸線一站到清澄白河，或步行約 15 分。</p>
+  <div class="stop food"><span class="t">13:15</span><h3>午餐：深川めし（深川宿 富岡八幡店）</h3><p>江戶下町的蛤蜊飯，點「炊き込み」（蛤蜊與飯一起炊熟）✅。週末 11:00 ~ 17:00（L.O. 16:30）。店在富岡八幡宮境內，飯後順逛八幡宮。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%B7%B1%E5%B7%9D%E5%AE%BF%20%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E5%AF%8C%E5%B2%A11-23-11&travelmode=walking">📍 深川宿</a><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA&travelmode=walking">📍 富岡八幡宮</a></div></div>
+  <div class="stop"><span class="t">14:30</span><h3>清澄庭園</h3><p>日式迴遊庭園，水池與踏石很好拍。09:00 ~ 17:00（16:30 前入園），門票 150 円。大江戸線一站到清澄白河。</p>
     <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%B8%85%E6%BE%84%E5%BA%AD%E5%9C%92%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E6%B8%85%E6%BE%843-3-9&travelmode=transit">📍 清澄庭園</a></div></div>
-  <div class="stop"><span class="t">16:30</span><h3>回飯店 Check-in・休息</h3><p>明天一早要去迪士尼，傍晚先休息。</p></div>
-  <div class="stop food"><span class="t">18:00</span><h3>晚餐：月島文字燒（近どう 本店）</h3><p>大江戸線一站到月島。1950 年創業的老店，週末 11:30 ~ 22:00（L.O. 21:30）。點海鮮もんじゃ、明太子もんじゃ（在鐵板上煎熟）✅；不點豬肉、牛筋口味。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E3%82%82%E3%82%93%E3%81%98%E3%82%83%20%E8%BF%91%E3%81%A9%E3%81%86%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9C%88%E5%B3%B63-12-10&travelmode=transit">📍 近どう 本店</a></div></div>
-  <div class="stop"><span class="t">20:00</span><h3>回飯店・便利商店採買</h3><p>買明天早餐與園內點心：飯糰挑烤鮭魚、鮪魚美乃滋；避開明太子、鮭魚卵。<b>萬聖節夜晚不往澀谷、歌舞伎町方向走</b>，今天行程都在飯店附近。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%20%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA">🔍 附近便利商店</a></div></div>
-  <div class="btns" style="margin-top:4px"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/%E6%B7%B1%E5%B7%9D%E5%AE%BF%20%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%BA%97/%E6%88%90%E7%94%B0%E5%B1%B1%E6%9D%B1%E4%BA%AC%E5%88%A5%E9%99%A2%20%E6%B7%B1%E5%B7%9D%E4%B8%8D%E5%8B%95%E5%A0%82/%E6%B8%85%E6%BE%84%E5%BA%AD%E5%9C%92/%E3%82%82%E3%82%93%E3%81%98%E3%82%83%20%E8%BF%91%E3%81%A9%E3%81%86%20%E6%9C%AC%E5%BA%97">🗺️ 今日完整路線圖</a></div>
+  <div class="stop food"><span class="t">15:30</span><h3>☕ PARK STAND TOKYO 清澄白河</h3><p>倉庫改建的烘焙咖啡館，就在庭園旁，鬆餅、現烤麵包（附件推薦）。每日 08:00 ~ 18:30。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=PARK%20STAND%20TOKYO%20%E6%B8%85%E6%BE%84%E7%99%BD%E6%B2%B3%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E6%B8%85%E6%BE%843-4-20&travelmode=walking">📍 PARK STAND</a></div></div>
+  <div class="stop"><span class="t">16:30</span><h3>回飯店 Check-in・休息</h3><p>換件外套，傍晚再出門。</p></div>
+  <div class="stop"><span class="t">17:30</span><h3>銀座散步</h3><p>銀座四丁目和光鐘樓、GINZA SIX、銀座六丁目。順手買<b>木村家總本店</b>的紅豆麵包（附件推薦，150 年老店）。</p>
+    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&destination=%E9%8A%80%E5%BA%A7%E9%A7%85&travelmode=transit">🚇 飯店→銀座</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%20%E5%92%8C%E5%85%89">🔍 和光鐘樓</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=GINZA%20SIX">🔍 GINZA SIX</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%E6%9C%A8%E6%9D%91%E5%AE%B6%20%E6%9C%AC%E5%BA%97">🔍 木村家</a></div></div>
+  <div class="stop food"><span class="t">18:30</span><h3>晚餐：銀座篝 本店（雞白湯拉麵）</h3><p>點<b>鶏白湯 SOBA</b>，配料是雞叉燒 ✅（查證：Time Out）。營業 11:00 ~ 15:30、17:30 ~ 22:00，不定休，常排隊；出發前看店家 Instagram 確認。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E9%8A%80%E5%BA%A7%20%E7%AF%9D%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A76-4-12&travelmode=walking">📍 銀座篝</a></div></div>
+  <div class="stop"><span class="t">20:00</span><h3>回飯店・便利商店採買</h3><p>買明天早餐。<b>萬聖節夜晚不往澀谷、歌舞伎町方向走</b>，銀座直接回飯店。</p>
+    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E9%8A%80%E5%BA%A7%E9%A7%85&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit">🚇 銀座→飯店</a></div></div>
+  <div class="btns" style="margin-top:4px"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/%E6%B7%B1%E5%B7%9D%E5%AE%BF%20%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%BA%97/%E6%B8%85%E6%BE%84%E5%BA%AD%E5%9C%92/PARK%20STAND%20TOKYO%20%E6%B8%85%E6%BE%84%E7%99%BD%E6%B2%B3/%E9%8A%80%E5%BA%A7%20%E7%AF%9D%20%E6%9C%AC%E5%BA%97">🗺️ 今日完整路線圖</a></div>
 </section>
 
 <!-- DAY 2 -->
 <section class="day">
   <div class="wx">☀️ 13 ~ 20°C 晴時多雲・降雨 2 ~ 20%・四天最穩定</div>
-  <div class="note">官方營業 <b>09:00 ~ 21:00</b>，常會提早入園。門票是<b>日期指定</b>，週日熱門，要先在官網或官方 App 買好。晚上會降到 13 ~ 14°C，帶保暖外套和行動電源。</div>
+  <div class="note">🎫 官方營業 <b>09:00 ~ 21:00</b>。門票是<b>日期指定</b>，現場不賣，要先在官網或官方 App 買好。<br>📱 出發前在 App 綁好門票與信用卡（DPA、Mobile Order 都要用），開好 eSIM。<br>🧥 海邊晚上會降到 13 ~ 14°C 且風大，帶防風外套、行動電源、好走的鞋。</div>
   <div class="stop food"><span class="t">06:45</span><h3>早餐</h3><p>吃前一晚在便利商店買的，省下園內排隊時間。</p></div>
-  <div class="stop"><span class="t">07:30</span><h3>步行到越中島 → JR 京葉線 → 舞浜</h3><p>飯店步行 13 分到越中島站，全程約 25 分。越中島只停<b>各站停車</b>，快速列車不停。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E8%B6%8A%E4%B8%AD%E5%B3%B6%E9%A7%85&travelmode=walking">📍 越中島站</a><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E8%B6%8A%E4%B8%AD%E5%B3%B6%E9%A7%85&destination=%E8%88%9E%E6%B5%9C%E9%A7%85&travelmode=transit">🚆 越中島→舞浜</a></div></div>
-  <div class="stop"><span class="t">08:15</span><h3>抵達入口排隊</h3><p>舞浜站步行約 5 分到樂園入口。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89&travelmode=transit">📍 東京迪士尼樂園</a></div></div>
-  <div class="stop"><span class="t">全天</span><h3>🏰 東京迪士尼樂園</h3><p>週日人多，用官方 App 看排隊時間；熱門設施可考慮付費快速通關 Disney Premier Access。手機與錢包放前方或有拉鍊的包包。</p></div>
-  <div class="stop food"><span class="t">用餐</span><h3>園內用餐：先查原料再點</h3><p>官方過敏資訊可以<b>依原料搜尋</b>（含牛肉、豚肉），挑不含牛豬的餐點。低過敏原的蔬菜咖哩飯不含牛、豬、雞 ✅。官方允許有飲食限制的人把自備食物帶進餐廳吃，早上買的飯糰可當備案。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://fsp.tokyodisneyresort.jp/">🔗 原料搜尋</a><a class="map" target="_blank" href="https://www.tokyodisneyresort.jp/food/981/">🔗 蔬菜咖哩飯</a><a class="map" target="_blank" href="https://www.tokyodisneyresort.jp/tdr/bfree/food.html">🔗 飲食限制說明</a></div></div>
-  <div class="stop"><span class="t">20:30</span><h3>離園（避開 21:00 閉園人潮）</h3><p>舞浜 → 越中島（搭各站停車）→ 步行 13 分回飯店。走大馬路；累了就在越中島搭計程車。</p>
-    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E8%88%9E%E6%B5%9C%E9%A7%85&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit">🚆 舞浜→飯店</a></div></div>
+  <div class="stop"><span class="t">07:20</span><h3>越中島 → JR 京葉線 → 舞浜 → 迪士尼度假區線</h3><p>飯店步行 13 分到越中島站，搭<b>各站停車</b>到舞浜（快速不停越中島），再轉 Disney Resort Line 到東京迪士尼海洋站，全程約 40 分。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E8%B6%8A%E4%B8%AD%E5%B3%B6%E9%A7%85&travelmode=walking">📍 越中島站</a><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E8%B6%8A%E4%B8%AD%E5%B3%B6%E9%A7%85&destination=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%BB%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%A7%85&travelmode=transit">🚆 越中島→海洋站</a></div></div>
+  <div class="stop"><span class="t">08:10</span><h3>抵達入口排安檢</h3><p>官方 09:00 開園，假日常提早陸續入場。小包包安檢較快。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC&travelmode=transit">📍 東京迪士尼海洋</a></div></div>
+  <div class="stop"><span class="t">入園當下</span><h3>📱 三件事先做</h3><p>① 買 <b>DPA：Anna and Elsa's Frozen Journey</b>（全園最熱門，常開園後很快賣完）② App 申請夜間秀 Believe! Sea of Dreams ③ Mobile Order 預約午餐。</p></div>
+  <div class="stop"><span class="t">09:00 ~ 12:00</span><h3>❄️ Fantasy Springs</h3><p>Frozen Journey、Rapunzel's Lantern Festival、Peter Pan's Never Land Adventure 集中玩。這三項只能排一般隊伍或買 DPA。</p></div>
+  <div class="stop food"><span class="t">12:00</span><h3>午餐：Snuggly Duckling（Fantasy Springs）</h3><p>點<b>炸蝦堡套餐</b>（2026/1 部落格記錄 ¥1,490）✅；鴨子造型的肉排漢堡不點。用 Mobile Order 避開排隊尖峰。</p></div>
+  <div class="stop"><span class="t">13:00 ~ 17:00</span><h3>🌋 神秘島 → 美人魚礁湖 → 阿拉伯海岸</h3><p>地心探險、海底兩萬哩 → 美人魚礁湖 → 辛巴達、神燈劇場。海底兩萬哩、辛巴達通常排隊較短，適合中間休息。</p></div>
+  <div class="stop"><span class="t">17:00 ~ 19:00</span><h3>🗽 美國海濱</h3><p>驚魂古塔、玩具總動員瘋狂遊戲屋 → 港灣拍照、買紀念品。</p></div>
+  <div class="stop"><span class="t">19:30 ~ 20:30</span><h3>✨ Believe! Sea of Dreams</h3><p>地中海港灣夜間秀，提早約 40 分鐘卡位。</p></div>
+  <div class="stop"><span class="t">20:30</span><h3>離園回飯店</h3><p>看完秀就走，避開 21:00 閉園人潮。迪士尼度假區線 → 舞浜 → 越中島（各站停車）→ 步行 13 分。走大馬路；累了就在越中島搭計程車。</p>
+    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%BB%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%A7%85&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit">🚆 海洋→飯店</a></div></div>
+
+  <h2 class="sec">🎟️ DPA 購買策略（付費快速通關）</h2>
+  <div class="note">入園後才能在 App 購買。買下一張的時間：<b>購買後 60 分鐘</b>或<b>上一張的使用開始時間</b>，以較早者為準。週日建議抓 4 張預算。</div>
+  <table>
+    <tr><th>順序</th><th>設施</th><th>價格</th></tr>
+    <tr><td>1</td><td><b>Anna and Elsa's Frozen Journey</b></td><td>¥2,500（9/1 起調漲）</td></tr>
+    <tr><td>2</td><td><b>Rapunzel's Lantern Festival</b></td><td>¥2,000</td></tr>
+    <tr><td>3</td><td><b>Soaring: Fantastic Flight</b></td><td>¥2,000</td></tr>
+    <tr><td>4</td><td><b>Journey to the Center of the Earth</b></td><td>¥1,500</td></tr>
+    <tr><td>視體力</td><td>Peter Pan's Never Land Adventure ¥2,000、Tower of Terror ¥1,500、Toy Story Mania! ¥2,000</td><td></td></tr>
+  </table>
+
+  <h2 class="sec">🍽️ 園內用餐</h2>
+  <table>
+    <tr><th>判定</th><th>餐廳・點法</th></tr>
+    <tr><td class="ok">✅</td><td><b>Snuggly Duckling</b>：炸蝦堡套餐</td></tr>
+    <tr><td class="ok">✅</td><td><b>Restaurant Sakura</b>：蝦天婦羅定食，不點壽司（附件資料）</td></tr>
+    <tr><td class="ok">✅</td><td><b>Zambini Brothers' Ristorante</b>：海鮮義大利麵（附件資料）</td></tr>
+    <tr><td class="ok">✅</td><td><b>Mamma Biscotti's Bakery</b>：雞肉丹麥麵包（附件資料）</td></tr>
+    <tr><td class="no">❌</td><td>牛排、漢堡排、豬肉咖哩、生魚壽司、豬肉熱狗</td></tr>
+  </table>
+  <div class="note">菜單常換，點餐前用官方「依原料搜尋」確認不含牛肉、豚肉。官方允許有飲食限制的人把自備食物帶進餐廳吃。</div>
+  <div class="btns"><a class="map" target="_blank" href="https://fsp.tokyodisneyresort.jp/">🔗 原料搜尋</a><a class="map" target="_blank" href="https://www.tokyodisneyresort.jp/tds/restaurant/food/413/">🔗 Snuggly Duckling 菜單</a><a class="map" target="_blank" href="https://www.tokyodisneyresort.jp/tdr/bfree/food.html">🔗 飲食限制說明</a></div>
 </section>
 
 <!-- DAY 3 -->
 <section class="day">
   <div class="wx">🌧️ 13 ~ 22°C 多雲・降雨 40 ~ 47%・帶傘</div>
-  <div class="note"><b>雨備日：</b>戶外行程放上午，下午進室內。雨大就跳過築地與淺草，直接去晴空塔、水族館、ソラマチ。<br>⚠️ 今天 <b>12:15 前</b>到長榮官網訂回程特別餐（見飲食頁）。</div>
-  <div class="stop"><span class="t">09:30</span><h3>大江戸線 門前仲町 → 築地市場（3 站）</h3><p>11/2 是週一，市場有開（週日、國定假日休市）。多數店家約 07:00 ~ 14:00。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4&travelmode=transit">📍 築地場外市場</a></div></div>
-  <div class="stop food"><span class="t">10:00</span><h3>早午餐：築地熟食小吃</h3><p>玉子燒、烤扇貝、烤魚串等現烤熟食 ✅。<b>生魚片、海膽、生蠔、海鮮丼都不點。</b></p></div>
-  <div class="stop"><span class="t">11:30</span><h3>步行到東銀座站 → 都營淺草線直達淺草</h3><p>不用換車。</p>
-    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4&destination=%E6%B5%85%E8%8D%89%E5%AF%BA&travelmode=transit">🚇 築地→淺草</a></div></div>
-  <div class="stop"><span class="t">12:00</span><h3>淺草寺・仲見世通</h3><p>週一人比 11/3 國定假日少。雨大就縮短這段。</p>
+  <div class="note"><b>雨備日：</b>上午淺草（早場人少），下午進室內（晴空塔、水族館）。雨大就跳過合羽橋與藏前散步。<br>⚠️ 今天 <b>12:15 前</b>到長榮官網訂回程特別餐（見飲食頁）。</div>
+  <div class="stop"><span class="t">08:00</span><h3>大江戸線 → 藏前 換淺草線 → 淺草</h3><p>約 25 分。</p>
+    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&destination=%E6%B5%85%E8%8D%89%E5%AF%BA&travelmode=transit">🚇 飯店→淺草寺</a></div></div>
+  <div class="stop"><span class="t">08:30</span><h3>淺草寺早場・雷門・仲見世通</h3><p>早上人最少，拍雷門最好的時段。仲見世店家約 09:00 ~ 10:00 陸續開門。</p>
     <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%B5%85%E8%8D%89%E5%AF%BA&travelmode=walking">📍 淺草寺</a></div></div>
-  <div class="stop food"><span class="t">13:00</span><h3>午餐：天丼（大黒家天麩羅 本店）</h3><p>1887 年創業，招牌炸蝦天丼 ✅。11:00 ~ 20:00，無休。用餐時間可能要排隊；舊資料寫不收信用卡，帶現金。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E5%A4%A7%E9%BB%92%E5%AE%B6%E5%A4%A9%E9%BA%A9%E7%BE%85%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-38-10&travelmode=walking">📍 大黒家天麩羅</a></div></div>
-  <div class="stop"><span class="t">14:30</span><h3>都營淺草線 淺草 → 押上（1 站）</h3><p>或過隅田川步行約 20 分。</p>
-    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=%E6%8A%BC%E4%B8%8A%E9%A7%85&travelmode=transit">🚇 淺草→押上</a></div></div>
-  <div class="stop"><span class="t">14:45</span><h3>東京晴空塔・すみだ水族館・ソラマチ</h3><p>全部在室內，不怕雨。展望台 10:00 ~ 22:00（21:00 前入場）；水族館平日 10:00 ~ 20:00（19:00 前入館），大人 2,500 円。陰雨天展望台視野差，可以只去水族館和逛街。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC&travelmode=walking">📍 晴空塔</a><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E3%81%99%E3%81%BF%E3%81%A0%E6%B0%B4%E6%97%8F%E9%A4%A8&travelmode=walking">📍 すみだ水族館</a></div></div>
-  <div class="stop food"><span class="t">18:00</span><h3>晚餐：東京ソラマチ餐廳區</h3><p>選天ぷら、焼き魚定食、唐揚げ、烤雞串等 ✅（點法見飲食頁）。</p>
-    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%82%BD%E3%83%A9%E3%83%9E%E3%83%81%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3">🔍 ソラマチ餐廳</a></div></div>
-  <div class="stop"><span class="t">19:30</span><h3>回飯店・整理行李</h3><p>半蔵門線 押上 → 清澄白河 換大江戸線 → 門前仲町，約 20 分。</p>
-    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E6%8A%BC%E4%B8%8A%E9%A7%85&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit">🚇 押上→飯店</a></div></div>
-  <div class="btns" style="margin-top:4px"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4/%E6%B5%85%E8%8D%89%E5%AF%BA/%E5%A4%A7%E9%BB%92%E5%AE%B6%E5%A4%A9%E9%BA%A9%E7%BE%85%20%E6%9C%AC%E5%BA%97/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC">🗺️ 今日完整路線圖</a></div>
+  <div class="stop"><span class="t">09:45</span><h3>淺草文化觀光中心 8F 展望台（免費）</h3><p>雷門正對面，同時看到仲見世與晴空塔。09:00 ~ 22:00，無休。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%B5%85%E8%8D%89%E6%96%87%E5%8C%96%E8%A6%B3%E5%85%89%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&travelmode=walking">📍 淺草文化觀光中心</a></div></div>
+  <div class="stop"><span class="t">10:30</span><h3>合羽橋道具街（雨小再去）</h3><p>廚具、食物模型街，步行約 10 分。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%A3%E3%81%B1%E6%A9%8B%E9%81%93%E5%85%B7%E8%A1%97">🔍 合羽橋</a></div></div>
+  <div class="stop food"><span class="t">11:30</span><h3>午餐：天丼（大黒家天麩羅 本店）</h3><p>1887 年創業，招牌炸蝦天丼 ✅。11:00 ~ 20:00，無休。舊資料寫不收信用卡，帶現金。<br>備選：附件推薦的<b>東京鶏白湯 ゆきかげ</b>（雞白湯拉麵 ⚠️ 先問叉燒是不是雞肉）、<b>花月堂</b>巨型菠蘿麵包當點心。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E5%A4%A7%E9%BB%92%E5%AE%B6%E5%A4%A9%E9%BA%A9%E7%BE%85%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-38-10&travelmode=walking">📍 大黒家</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%B6%8F%E7%99%BD%E6%B9%AF%20%E3%82%86%E3%81%8D%E3%81%8B%E3%81%92%20%E6%B5%85%E8%8D%89">🔍 ゆきかげ</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E8%8D%89%20%E8%8A%B1%E6%9C%88%E5%A0%82%20%E6%9C%AC%E5%BA%97">🔍 花月堂</a></div></div>
+  <div class="stop"><span class="t">13:00</span><h3>淺草線 淺草 → 押上：晴空塔・すみだ水族館・ソラマチ</h3><p>全部在室內，下雨最安心。展望台 10:00 ~ 22:00；水族館平日 10:00 ~ 20:00，大人 2,500 円。陰雨天展望台視野差，可以只去水族館和逛街。</p>
+    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=%E6%8A%BC%E4%B8%8A%E9%A7%85&travelmode=transit">🚇 淺草→押上</a><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC&travelmode=walking">📍 晴空塔</a><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E3%81%99%E3%81%BF%E3%81%A0%E6%B0%B4%E6%97%8F%E9%A4%A8&travelmode=walking">📍 すみだ水族館</a></div></div>
+  <div class="stop"><span class="t">16:30</span><h3>藏前散步（雨小再去）</h3><p>被稱為東京布魯克林，咖啡、文具雜貨小店。附件推薦的 FROM AFAR 已於 2024/9 遷到東向島，不在藏前了。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E5%89%8D%20%E3%82%AB%E3%83%95%E3%82%A7">🔍 藏前咖啡</a></div></div>
+  <div class="stop food"><span class="t">18:30</span><h3>晚餐：月島文字燒（近どう 本店）</h3><p>大江戸線 藏前 → 月島（經過門前仲町）。週一 17:00 ~ 22:00。點海鮮もんじゃ、明太子もんじゃ（在鐵板上煎熟）✅；不點豬肉、牛筋口味。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E3%82%82%E3%82%93%E3%81%98%E3%82%83%20%E8%BF%91%E3%81%A9%E3%81%86%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9C%88%E5%B3%B63-12-10&travelmode=transit">📍 近どう 本店</a></div></div>
+  <div class="stop"><span class="t">20:00</span><h3>回飯店・整理行李</h3><p>大江戸線月島 → 門前仲町一站。</p>
+    <div class="btns"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=%E6%9C%88%E5%B3%B6%E9%A7%85&destination=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA2-8-9&travelmode=transit">🚇 月島→飯店</a></div></div>
+  <div class="btns" style="margin-top:4px"><a class="map route" target="_blank" href="https://www.google.com/maps/dir/%E6%B5%85%E8%8D%89%E5%AF%BA/%E6%B5%85%E8%8D%89%E6%96%87%E5%8C%96%E8%A6%B3%E5%85%89%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/%E5%A4%A7%E9%BB%92%E5%AE%B6%E5%A4%A9%E9%BA%A9%E7%BE%85%20%E6%9C%AC%E5%BA%97/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC">🗺️ 今日完整路線圖</a></div>
 </section>
 
 <!-- DAY 4 -->
 <section class="day">
   <div class="wx">⛅ 14 ~ 22°C 晴時多雲・降雨 20 ~ 37%</div>
-  <div class="note">11/3 是日本國定假日「文化の日」，機場人多，提早出發。Check-out 11:00，但 09:00 就要出門。</div>
-  <div class="stop food"><span class="t">07:30</span><h3>早餐・飯店附近散步</h3><p>第一天沒逛到富岡八幡宮的話，早上可以補。</p>
+  <div class="note">11/3 是日本國定假日「文化の日」，機場人多，提早出發。Check-out 11:00，但 09:00 就要出門。附件排的豐洲、teamLab、神樂坂因 12:15 班機無法安排，已移到「備選」。</div>
+  <div class="stop food"><span class="t">07:30</span><h3>早餐・飯店附近散步</h3><p>可去富岡八幡宮走走。</p>
     <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=%E5%AF%8C%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA&travelmode=walking">📍 富岡八幡宮</a></div></div>
   <div class="stop"><span class="t">08:45</span><h3>退房</h3><p>確認護照、手機、充電器、行動電源。</p></div>
   <div class="stop"><span class="t">09:00</span><h3>大江戸線 → 大門 換淺草線（直通京急）→ 羽田 T3</h3><p>約 40 分。在大門搭<b>終點標示「羽田空港」</b>的列車。</p>
@@ -151,42 +180,82 @@
 
 <!-- 飲食 -->
 <section class="day">
-  <div class="note"><b>不吃：</b>牛、豬、內臟、鰻魚、生食<br><b>口味參考：</b>雞肉料理、熟的海鮮、烤魚、燉魚、韓式料理、雪冰等（舉例，不是必吃清單）</div>
+  <div class="note"><b>不吃：</b>牛、豬、內臟、鰻魚、生食（含生魚片、生蛋黃）<br><b>口味參考：</b>雞肉料理、熟的海鮮、烤魚、燉魚、韓式料理、雪冰等（舉例，不是必吃清單）</div>
 
   <h2 class="sec">✅ 在日本可以放心點的</h2>
   <table>
     <tr><th>類型</th><th>點法</th></tr>
-    <tr><td><b>天ぷら・天丼</b></td><td>炸蝦、炸魚、炸蔬菜都可以</td></tr>
+    <tr><td><b>天ぷら・天丼</b></td><td>炸蝦、炸魚、炸蔬菜；避開穴子（星鰻）</td></tr>
     <tr><td><b>焼き魚定食</b>（烤魚定食）</td><td>鯖魚、鮭魚、花魚（ホッケ）</td></tr>
     <tr><td><b>唐揚げ</b>（日式炸雞）</td><td>直接點</td></tr>
     <tr><td><b>焼き鳥</b>（烤雞串）</td><td class="no">只點もも（雞腿）、ねぎま（雞肉蔥段）、手羽先（雞翅）。不點レバー（肝）、ハツ（心）、砂肝（雞胗）、豚バラ（豬五花）；つくね（雞肉丸）有時混豬肉，要先問</td></tr>
-    <tr><td><b>もんじゃ・お好み焼き</b></td><td>海鮮或明太子口味；不點豬肉、牛筋</td></tr>
+    <tr><td><b>雞白湯・蛤蜊・蜆湯拉麵</b></td><td>豬叉燒要換掉或拿掉，湯底先問有沒有豬骨</td></tr>
+    <tr><td><b>もんじゃ・お好み焼き</b></td><td>海鮮或明太子口味（煎熟）；不點豬肉、牛筋</td></tr>
     <tr><td><b>そば・うどん</b></td><td>天ぷらそば、きつねうどん；不點肉そば、肉うどん、カレーうどん</td></tr>
-    <tr><td><b>深川めし・玉子焼き</b></td><td>可以</td></tr>
   </table>
 
   <h2 class="sec">⚠️ 容易踩雷的地方</h2>
   <table>
     <tr><th>類別</th><th>風險</th><th>處理</th></tr>
-    <tr><td>拉麵</td><td>豬骨或混合高湯，叉燒是豬肉</td><td class="no">不點</td></tr>
-    <tr><td>日式咖哩</td><td>雞肉咖哩的醬底也常用牛、豬油脂</td><td class="no">不點</td></tr>
-    <tr><td>煎餃・關東煮</td><td>煎餃是豬肉餡；關東煮常有牛筋</td><td class="no">不點</td></tr>
-    <tr><td>蛋</td><td>親子丼、壽喜燒、溫泉蛋常用半熟或生蛋</td><td class="no">不點或請店家煮全熟</td></tr>
-    <tr><td>生食</td><td>壽司、生魚片、海鮮丼、生蠔、生しらす</td><td class="no">不點</td></tr>
-    <tr><td>鰻魚</td><td>うな重、ひつまぶし</td><td class="no">不點</td></tr>
+    <tr><td>一般拉麵</td><td>豚骨或混合高湯，叉燒預設是豬肉</td><td class="no">只選雞湯、海鮮湯，並換叉燒</td></tr>
+    <tr><td>雞叉燒、雞胸</td><td>很多店用低溫調理，切面粉紅</td><td>請店家確認是否全熟</td></tr>
+    <tr><td>鴨肉</td><td>鴨肉蕎麥、鴨肉拉麵常是粉紅半熟</td><td>請店家煮全熟，或不點</td></tr>
+    <tr><td>明太子</td><td>明太子本身是生的醃魚卵；明太子釜玉烏龍還加生蛋</td><td class="no">只吃煎熟或烤熟的明太子</td></tr>
+    <tr><td>蛋</td><td>親子丼、壽喜燒、溫泉蛋、爆漿蛋三明治、半熟蛋天婦羅</td><td class="no">不點或請店家煮全熟</td></tr>
+    <tr><td>日式咖哩・煎餃・關東煮</td><td>醬底常含牛、豬；煎餃是豬肉餡；關東煮有牛筋</td><td class="no">不點</td></tr>
+    <tr><td>生食・鰻魚</td><td>壽司、生魚片、海鮮丼、生しらす、うな重、穴子</td><td class="no">不點</td></tr>
     <tr><td>便利商店</td><td>看「原材料名」</td><td>避開豚肉、牛肉、ポーク、ビーフ、ゼラチン（明膠多為豬來源，依自己的標準判斷）</td></tr>
-    <tr><td>韓式餐廳（如果有去）</td><td>刀削麵可能是牛骨湯；辣炒年糕常加牛肉粉「ダシダ」；飯捲有火腿；小菜泡菜可能有生蝦醬、生蠔</td><td>先問湯底與調味；飯捲請店家拿掉火腿</td></tr>
   </table>
 
   <h2 class="sec">🗣️ 點餐用語（給店員看）</h2>
   <table>
     <tr><th>情境</th><th>日文</th></tr>
-    <tr><td>說明飲食限制</td><td>牛肉・豚肉・内臓・うなぎ・生もの（刺身、生卵）が食べられません。</td></tr>
-    <tr><td>有沒有豬肉、牛肉</td><td>これに豚肉や牛肉は入っていますか？</td></tr>
-    <tr><td>問湯底</td><td>このスープは何でだしを取っていますか？</td></tr>
-    <tr><td>蛋要全熟</td><td>卵はしっかり火を通してください。</td></tr>
-    <tr><td>去掉火腿</td><td>ハムを抜いてください。</td></tr>
+    <tr><td>說明飲食限制</td><td>牛肉と豚肉、内臓、うなぎ、生もの（刺身、生卵）は食べられません。鶏肉と加熱した海鮮でお願いできますか？</td></tr>
+    <tr><td>換叉燒</td><td>豚チャーシュー抜きで、鶏チャーシューに変更できますか？</td></tr>
+    <tr><td>問湯底</td><td>スープに豚骨や牛骨は入っていますか？</td></tr>
+    <tr><td>肉要全熟</td><td>お肉と卵はしっかり火を通してください。</td></tr>
+    <tr><td>去掉火腿</td><td>ハム抜きでお願いします。</td></tr>
   </table>
+
+  <h2 class="sec">📒 附件美食清單（已逐一標註飲食判定）</h2>
+  <div class="note">✅ 可安心｜⚠️ 需注意點法｜❌ 不建議。除了標「查證」的店以外，店家資訊來自附件，未逐一查證；去之前先用 Google Maps 看營業時間。</div>
+  <table>
+    <tr><th>店家</th><th>區域</th><th>判定</th><th>說明・點法</th><th>📍</th></tr>
+    <tr><td><b>銀座篝 本店</b></td><td>銀座</td><td class="ok">✅</td><td>鶏白湯 SOBA 是雞叉燒（查證）</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%20%E7%AF%9D%20%E6%9C%AC%E5%BA%97">📍</a></td></tr>
+    <tr><td><b>Ramen Maikagura</b></td><td></td><td class="no">⚠️</td><td>雞白湯＋松露油，換掉豬叉燒</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Ramen%20Maikagura">📍</a></td></tr>
+    <tr><td><b>東京鶏白湯 ゆきかげ</b></td><td>淺草</td><td class="no">⚠️</td><td>確認叉燒與湯底</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%B6%8F%E7%99%BD%E6%B9%AF%20%E3%82%86%E3%81%8D%E3%81%8B%E3%81%92%20%E6%B5%85%E8%8D%89">📍</a></td></tr>
+    <tr><td><b>Ramen Afro Beats</b></td><td>新宿御苑</td><td class="no">⚠️</td><td>雞白湯，確認叉燒</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Ramen%20Afro%20Beats">📍</a></td></tr>
+    <tr><td><b>鶏の穴</b></td><td>池袋</td><td class="no">⚠️</td><td>雞叉燒，確認是否全熟</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%B6%8F%E3%81%AE%E7%A9%B4%20%E6%B1%A0%E8%A2%8B">📍</a></td></tr>
+    <tr><td><b>AFURI</b></td><td>多店</td><td class="no">⚠️</td><td>柚子鹽拉麵，叉燒要拿掉，湯底先問</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=AFURI">📍</a></td></tr>
+    <tr><td><b>むぎとオリーブ</b></td><td>銀座</td><td class="no">⚠️</td><td>蛤蜊清湯，去豬叉燒</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%82%80%E3%81%8E%E3%81%A8%E3%82%AA%E3%83%AA%E3%83%BC%E3%83%96%20%E9%8A%80%E5%BA%A7">📍</a></td></tr>
+    <tr><td><b>宍道湖しじみ中華蕎麦 琥珀</b></td><td></td><td class="no">⚠️</td><td>蜆湯拉麵，確認叉燒</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%AE%8D%E9%81%93%E6%B9%96%E3%81%97%E3%81%98%E3%81%BF%E4%B8%AD%E8%8F%AF%E8%95%8E%E9%BA%A6%20%E7%90%A5%E7%8F%80">📍</a></td></tr>
+    <tr><td><b>海老丸 Ebimaru Ramen</b></td><td></td><td class="no">⚠️</td><td>龍蝦濃湯；雞胸確認全熟，不點含豬的 Deluxe</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Ebimaru%20Ramen">📍</a></td></tr>
+    <tr><td><b>鴨 to 葱</b></td><td>新宿</td><td class="no">⚠️</td><td>鴨肉常半熟，請店家煮熟</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%B4%A8to%E8%91%B1">📍</a></td></tr>
+    <tr><td><b>花山うどん</b></td><td>銀座</td><td class="ok">✅</td><td>寬麵烏龍，選天婦羅類，不點肉湯</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E5%B1%B1%E3%81%86%E3%81%A9%E3%82%93%20%E9%8A%80%E5%BA%A7">📍</a></td></tr>
+    <tr><td><b>うどん慎</b></td><td>新宿</td><td class="no">⚠️</td><td>招牌明太子釜玉含生明太子、生蛋，<b>不點</b>；改點天婦羅烏龍</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%E6%85%8E%20%E6%96%B0%E5%AE%BF">📍</a></td></tr>
+    <tr><td><b>BASO</b></td><td>原宿</td><td class="no">⚠️</td><td>鴨蕎麥可能半熟；炸蛋天婦羅是半熟蛋</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=BASO%20%E5%8E%9F%E5%AE%BF">📍</a></td></tr>
+    <tr><td><b>みよた</b></td><td>表參道</td><td class="ok">✅</td><td>蕎麥套餐，不點豬排丼</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%82%88%E3%81%9F%20%E8%A1%A8%E5%8F%82%E9%81%93">📍</a></td></tr>
+    <tr><td><b>金子半之助</b></td><td>日本橋</td><td class="no">⚠️</td><td>招牌天丼可能含穴子、半熟蛋，點炸蝦天丼並確認配料</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%AD%90%E5%8D%8A%E4%B9%8B%E5%8A%A9%20%E6%97%A5%E6%9C%AC%E6%A9%8B">📍</a></td></tr>
+    <tr><td><b>土手の伊勢屋・てんぷら黒川</b></td><td>淺草周邊</td><td class="no">⚠️</td><td>選大海老天丼、野菜天丼，避開穴子</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E6%89%8B%E3%81%AE%E4%BC%8A%E5%8B%A2%E5%B1%8B">📍</a></td></tr>
+    <tr><td><b>茶亭羽當</b></td><td>澀谷</td><td class="ok">✅</td><td>布丁、拿鐵</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E4%BA%AD%E7%BE%BD%E7%95%B6%20%E6%B8%8B%E8%B0%B7">📍</a></td></tr>
+    <tr><td><b>Tricolore 本店</b></td><td>銀座</td><td class="ok">✅</td><td>老咖啡館，桌邊倒咖啡</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AA%E3%82%B3%E3%83%AD%E3%83%BC%E3%83%AB%E6%9C%AC%E5%BA%97%20%E9%8A%80%E5%BA%A7">📍</a></td></tr>
+    <tr><td><b>銀座木村家</b></td><td>銀座</td><td class="ok">✅</td><td>酒種紅豆麵包</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%E6%9C%A8%E6%9D%91%E5%AE%B6%20%E6%9C%AC%E5%BA%97">📍</a></td></tr>
+    <tr><td><b>Mr. CHEESECAKE</b></td><td>銀座</td><td class="ok">✅</td><td>起司蛋糕</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Mr.%20CHEESECAKE%20%E9%8A%80%E5%BA%A7">📍</a></td></tr>
+    <tr><td><b>MUJI Coffee &amp; Bakery</b></td><td>銀座</td><td class="ok">✅</td><td>鹽麵包、可頌</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81%20%E9%8A%80%E5%BA%A7%20%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC">📍</a></td></tr>
+    <tr><td><b>CHERMSIDE</b></td><td>原宿</td><td class="no">⚠️</td><td>爆漿蛋是半熟蛋，含火腿要去掉（ハム抜き）</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=CHERMSIDE%20%E5%8E%9F%E5%AE%BF">📍</a></td></tr>
+    <tr><td><b>FLIPPER'S</b></td><td>澀谷</td><td class="ok">✅</td><td>舒芙蕾鬆餅</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=FLIPPER%27S%20%E6%B8%8B%E8%B0%B7">📍</a></td></tr>
+    <tr><td><b>花月堂</b></td><td>淺草</td><td class="ok">✅</td><td>巨型菠蘿麵包</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E8%8D%89%20%E8%8A%B1%E6%9C%88%E5%A0%82%20%E6%9C%AC%E5%BA%97">📍</a></td></tr>
+    <tr><td><b>February Cafe</b></td><td>淺草</td><td class="ok">✅</td><td>布丁</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=February%20Cafe%20%E6%B5%85%E8%8D%89">📍</a></td></tr>
+    <tr><td><b>PARK STAND TOKYO</b></td><td>清澄白河</td><td class="ok">✅</td><td>鬆餅、麵包，08:00 ~ 18:30（查證）</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=PARK%20STAND%20TOKYO%20%E6%B8%85%E6%BE%84%E7%99%BD%E6%B2%B3">📍</a></td></tr>
+    <tr><td><b>PREMIER MAI</b></td><td>代代木</td><td class="ok">✅</td><td>法式吐司早餐</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=PREMIER%20MAI%20%E4%BB%A3%E3%80%85%E6%9C%A8">📍</a></td></tr>
+    <tr><td><b>GARDEN HOUSE CRAFTS</b></td><td>代官山</td><td class="no">⚠️</td><td>酪梨蛋早餐盤，蛋要全熟</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=GARDEN%20HOUSE%20CRAFTS%20%E4%BB%A3%E5%AE%98%E5%B1%B1">📍</a></td></tr>
+    <tr><td><b>HARBS</b></td><td>多店</td><td class="ok">✅</td><td>水果千層蛋糕</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=HARBS">📍</a></td></tr>
+    <tr><td><b>Freckle Donuts</b></td><td></td><td class="ok">✅</td><td>爆漿奶油甜甜圈</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Freckle%20Donuts">📍</a></td></tr>
+    <tr><td><b>HAL'S BAGEL</b></td><td></td><td class="no">⚠️</td><td>不點生鮭魚口味</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=HAL%27S%20BAGEL">📍</a></td></tr>
+    <tr><td><b>神楽坂茶寮・Canal Cafe・WeLoveDonut・梅花亭</b></td><td>神樂坂</td><td class="ok">✅</td><td>抹茶芭菲、水岸咖啡、甜甜圈、和菓子</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E6%A5%BD%E5%9D%82%E8%8C%B6%E5%AF%AE">📍</a></td></tr>
+    <tr><td><b>FROM AFAR</b></td><td>東向島</td><td class="no">❌</td><td>附件寫在藏前，查證已於 2024/9 遷至東向島，不順路</td><td><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=from%20afar%20%E6%9D%B1%E5%90%91%E5%B3%B6">📍</a></td></tr>
+  </table>
+  <div class="note">已排除（附件整理）：燒肉、壽喜燒、牛舌、和牛；一蘭等豚骨拉麵、炸豬排；鰻魚飯、穴子天丼；所有壽司、迴轉壽司、生しらす。</div>
 
   <h2 class="sec">✈️ 長榮特別餐</h2>
   <div class="stop food"><span class="t">回程 BR191・11/2 12:15 前</span><h3>海鮮餐 SFML（免費）</h3><p>長榮官網規定特別餐要在<b>起飛前 24 小時</b>預訂，回程要在 11/2 12:15（日本時間）前到官網「選餐」訂。近期有旅客反映海鮮餐選不到，選不到就打長榮訂位中心。去程 BR192 應該已經超過期限。</p>
@@ -195,15 +264,16 @@
 
 <!-- 交通 -->
 <section class="day">
-  <div class="note">💳 Suica／PASMO 一張搞定地鐵、JR、京急，iPhone 可直接在「錢包」App 新增。另外準備一些現金（部分老店不收卡）。</div>
+  <div class="note">💳 Suica／PASMO 手機版先綁好，地鐵、JR、京急、迪士尼度假區線都能刷。另外準備一些現金（部分老店不收卡）。</div>
   <h2 class="sec">🚇 常用路線</h2>
   <table>
     <tr><th>路線</th><th>搭法</th><th>時間</th></tr>
     <tr><td>羽田T3 → 飯店</td><td>京急（直通淺草線）→ 大門 換大江戸線 → 門前仲町 6 號出口</td><td>約 40 分</td></tr>
-    <tr><td>飯店 → 月島・清澄白河</td><td>大江戸線各一站（門前仲町在兩站中間）</td><td>約 2 分</td></tr>
-    <tr><td>飯店 → 迪士尼</td><td>步行到越中島 → JR 京葉線（各站停車）→ 舞浜</td><td>約 25 分</td></tr>
-    <tr><td>飯店 → 築地</td><td>大江戸線 門前仲町 → 築地市場（3 站）</td><td>約 10 分</td></tr>
-    <tr><td>晴空塔 → 飯店</td><td>半蔵門線 押上 → 清澄白河 換大江戸線 → 門前仲町</td><td>約 20 分</td></tr>
+    <tr><td>飯店 → 清澄白河・月島</td><td>大江戸線各一站（門前仲町在兩站中間）</td><td>約 2 分</td></tr>
+    <tr><td>飯店 → 迪士尼海洋</td><td>步行到越中島 → JR 京葉線（各站停車）→ 舞浜 → 迪士尼度假區線 → 東京迪士尼海洋站</td><td>約 40 分</td></tr>
+    <tr><td>飯店 → 淺草</td><td>大江戸線 → 藏前 換淺草線 → 淺草</td><td>約 25 分</td></tr>
+    <tr><td>淺草 → 晴空塔</td><td>淺草線 淺草 → 押上（1 站）</td><td>約 5 分</td></tr>
+    <tr><td>藏前 → 月島</td><td>大江戸線直達（經過門前仲町）</td><td>約 15 分</td></tr>
     <tr><td>飯店 → 羽田T3</td><td>大江戸線 → 大門 換淺草線（往「羽田空港」）</td><td>約 40 分</td></tr>
   </table>
   <h2 class="sec">⚠️ 搭車注意</h2>
@@ -211,23 +281,21 @@
   <div class="stop"><span class="t">JR 京葉線</span><h3>越中島只停各站停車</h3><p>往返舞浜時，快速列車不停越中島，上車前看清楚。</p></div>
 </section>
 
-<!-- 安全 -->
+<!-- 備選 -->
 <section class="day">
-  <h2 class="sec">📞 緊急聯絡</h2>
-  <table>
-    <tr><th>用途</th><th>電話</th></tr>
-    <tr><td>警察</td><td><a href="tel:110">110</a></td></tr>
-    <tr><td>救護車・消防</td><td><a href="tel:119">119</a></td></tr>
-    <tr><td>Japan Visitor Hotline（24 小時，有中文）</td><td><a href="tel:+815038162787">050-3816-2787</a></td></tr>
-    <tr><td>台北駐日經濟文化代表處（上班時間）</td><td><a href="tel:+81332807811">03-3280-7811</a> 分機 4</td></tr>
-    <tr><td>代表處急難手機（車禍、犯罪受害、緊急就醫）</td><td><a href="tel:+818010097179">080-1009-7179</a><br><a href="tel:+818010097436">080-1009-7436</a></td></tr>
-    <tr><td>飯店</td><td><a href="tel:+81356465300">03-5646-5300</a></td></tr>
-  </table>
-  <h2 class="sec">🧳 單人旅行注意事項</h2>
-  <div class="stop"><span class="t">10/31 晚上</span><h3>🎃 避開萬聖節人潮</h3><p>澀谷、新宿歌舞伎町人潮擁擠，這天行程都排在飯店附近。</p></div>
-  <div class="stop"><span class="t">11/1 迪士尼</span><h3>👜 人多顧好隨身物品</h3><p>手機與錢包放前方或有拉鍊的包包，帶行動電源（整天開 App 很耗電）。</p></div>
-  <div class="stop"><span class="t">每天</span><h3>📱 報平安</h3><p>把這份行程私下傳給家人，每天固定時間報平安。隨身帶一張飯店名片，迷路或手機沒電時可以給計程車司機看。</p></div>
-  <div class="stop"><span class="t">出發前</span><h3>🌏 地震警報</h3><p>可以先安裝日本觀光局的「Safety tips」App，收地震與海嘯警報。</p></div>
+  <div class="note">附件裡有、但這次排不進去的景點。原因多半是班機時間（10/31 11:00 落地、11/3 12:15 起飛）或天氣。11/2 如果放晴，可以拿下面的戶外景點替換晴空塔。</div>
+  <div class="stop"><span class="t">原排 10/31・落地時間與萬聖節人潮</span><h3>⛩️ 明治神宮・原宿竹下通・表參道・澀谷</h3><p>附件 09:30 從明治神宮開始，但班機 11:00 才落地；10/31 晚上澀谷萬聖節人潮很多，單人不建議前往。SHIBUYA SKY 要事先線上預約。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE">🔍 明治神宮</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E4%B8%8B%E9%80%9A%E3%82%8A">🔍 竹下通</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%A1%A8%E5%8F%82%E9%81%93">🔍 表參道</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=SHIBUYA%20SKY">🔍 SHIBUYA SKY</a></div></div>
+  <div class="stop"><span class="t">原排 11/2・週一休館與下雨</span><h3>🐼 上野公園・阿美橫丁・谷中銀座</h3><p>上野多數博物館週一休館，又是雨備日，以戶外商店街為主的這段先拿掉。11/2 放晴的話，下午可以改去。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E9%87%8E%E6%81%A9%E8%B3%9C%E5%85%AC%E5%9C%92">🔍 上野公園</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%A1%E6%A8%AA">🔍 阿美橫丁</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E4%B8%AD%E9%8A%80%E5%BA%A7%E5%95%86%E5%BA%97%E8%A1%97">🔍 谷中銀座</a></div></div>
+  <div class="stop"><span class="t">原排 11/3・回程班機</span><h3>🌊 豐洲 teamLab Planets・千客萬來・台場</h3><p>teamLab 是室內展館，要預約，涉水區要穿可捲的褲子；也可以當 11/2 的雨天替代方案。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=teamLab%20Planets%20TOKYO">🔍 teamLab Planets</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E6%B4%B2%20%E5%8D%83%E5%AE%A2%E4%B8%87%E6%9D%A5">🔍 千客萬來</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E5%8F%B0%E5%A0%B4">🔍 台場</a></div></div>
+  <div class="stop"><span class="t">原排 11/3・回程班機</span><h3>🍁 庭園賞楓・神樂坂</h3><p>六義園、小石川後樂園、濱離宮恩賜庭園；神樂坂石板巷、東京大神宮。11 月初楓葉才剛開始。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%85%AD%E7%BE%A9%E5%9C%92">🔍 六義園</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%9F%B3%E5%B7%9D%E5%BE%8C%E6%A5%BD%E5%9C%92">🔍 小石川後樂園</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%B5%9C%E9%9B%A2%E5%AE%AE%E6%81%A9%E8%B3%9C%E5%BA%AD%E5%9C%92">🔍 濱離宮</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E6%A5%BD%E5%9D%82">🔍 神樂坂</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A7%E7%A5%9E%E5%AE%AE">🔍 東京大神宮</a></div></div>
+  <div class="stop"><span class="t">前版行程</span><h3>🐟 築地場外市場</h3><p>週一有開（週日、國定假日休市），只吃現烤熟食：玉子燒、烤扇貝。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4">🔍 築地場外市場</a></div></div>
+  <div class="stop"><span class="t">有空再塞</span><h3>🗼 其他</h3><p>東京鐵塔、六本木之丘、麻布台 Hills、中目黑、代官山、新宿御苑、東京都廳展望室（免費）、吉祥寺、下北澤、根津神社、豪德寺。</p>
+    <div class="btns"><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC">🔍 東京鐵塔</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%92%E3%83%AB%E3%82%BA">🔍 六本木之丘</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%BA%BB%E5%B8%83%E5%8F%B0%E3%83%92%E3%83%AB%E3%82%BA">🔍 麻布台</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%BA%81%20%E5%B1%95%E6%9C%9B%E5%AE%A4">🔍 都廳展望室</a><a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E4%B8%8B%E5%8C%97%E6%B2%A2">🔍 下北澤</a></div></div>
 </section>
 
 <!-- 資訊 -->
@@ -240,33 +308,53 @@
     <tr><td>11/2（一）</td><td>多雲 40%<br>15 ~ 22°C</td><td>毛毛雨 47%<br>13 ~ 17°C</td></tr>
     <tr><td>11/3（二）</td><td>晴時多雲 20%<br>14 ~ 22°C</td><td>小毛毛雨 37%<br>11 ~ 21°C</td></tr>
   </table>
-  <div class="note">👕 洋蔥式穿法：短袖或薄長袖＋薄外套。白天約 20°C，早晚 11 ~ 15°C。迪士尼晚上帶保暖外套；11/2 帶摺疊傘、穿不怕濕的鞋。</div>
+  <div class="note">👕 洋蔥式穿法：短袖或薄長袖＋薄外套，白天約 20°C，早晚 11 ~ 15°C。迪士尼海洋靠海風大，晚上帶防風外套；11/2 帶摺疊傘、穿不怕濕的鞋。</div>
+
+  <h2 class="sec">📞 緊急聯絡</h2>
+  <table>
+    <tr><th>用途</th><th>電話</th></tr>
+    <tr><td>警察</td><td><a href="tel:110">110</a></td></tr>
+    <tr><td>救護車・消防</td><td><a href="tel:119">119</a></td></tr>
+    <tr><td>Japan Visitor Hotline（24 小時，有中文）</td><td><a href="tel:+815038162787">050-3816-2787</a></td></tr>
+    <tr><td>台北駐日經濟文化代表處（上班時間）</td><td><a href="tel:+81332807811">03-3280-7811</a> 分機 4</td></tr>
+    <tr><td>代表處急難手機（車禍、犯罪受害、緊急就醫）</td><td><a href="tel:+818010097179">080-1009-7179</a><br><a href="tel:+818010097436">080-1009-7436</a></td></tr>
+    <tr><td>飯店</td><td><a href="tel:+81356465300">03-5646-5300</a></td></tr>
+  </table>
+
+  <h2 class="sec">🧳 單人旅行注意事項</h2>
+  <table>
+    <tr><td>🎃 10/31 晚上</td><td>澀谷、歌舞伎町萬聖節人潮擁擠，銀座晚餐後直接回飯店</td></tr>
+    <tr><td>👜 11/1 迪士尼</td><td>手機錢包放前方或拉鍊包，帶行動電源（整天開 App 很耗電）</td></tr>
+    <tr><td>📱 每天</td><td>行程私下傳給家人，固定時間報平安；隨身帶飯店名片</td></tr>
+    <tr><td>🌏 地震</td><td>可安裝日本觀光局「Safety tips」App 收地震、海嘯警報</td></tr>
+  </table>
 
   <h2 class="sec">✅ 出發前待辦</h2>
   <table>
-    <tr><td>☐ 買 11/1 迪士尼「日期指定」門票（週日熱門，盡快）</td></tr>
+    <tr><td>☐ 買 11/1 迪士尼海洋「日期指定」門票，App 綁票、綁信用卡</td></tr>
+    <tr><td>☐ 開好 eSIM（搶 DPA 要穩定網路與信用卡 3D 驗證）</td></tr>
     <tr><td>☐ 填 Visit Japan Web（入境審查、海關申報 QR Code）</td></tr>
     <tr><td>☐ 11/2 12:15 前訂回程長榮特別餐</td></tr>
     <tr><td>☐ 手機新增 Suica／PASMO 並儲值，準備一些現金</td></tr>
     <tr><td>☐ 確認旅平險、海外突發疾病保障</td></tr>
     <tr><td>☐ 出發前一晚再查一次天氣</td></tr>
-    <tr><td>☐ 用 Google Maps 確認各餐廳營業時間</td></tr>
   </table>
 
   <h2 class="sec">📚 資料來源（網路查詢，2026/10/30）</h2>
   <table>
     <tr><td>天氣</td><td><a target="_blank" href="https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=130000">日本氣象廳</a>（週報 10/29 17:00 發布）、<a target="_blank" href="https://open-meteo.com/">Open-Meteo</a></td></tr>
     <tr><td>航班</td><td><a target="_blank" href="https://info.flightmapper.net/flight/EVA_Air_BR_192">BR192</a>、<a target="_blank" href="https://info.flightmapper.net/flight/EVA_Air_BR_191">BR191</a>（FlightMapper，第三方）</td></tr>
-    <tr><td>飯店</td><td><a target="_blank" href="https://richmondhotel.jp/monzennakacho/guide/">京成リッチモンド 公式</a>、<a target="_blank" href="https://www.jtb.co.jp/kokunai-hotel/htl/4011109/access/">JTB</a></td></tr>
-    <tr><td>迪士尼</td><td><a target="_blank" href="https://www.tokyodisneyresort.jp/tdl/daily/calendar/20261101/">11/1 營業時間</a>、<a target="_blank" href="https://www.tokyodisneyresort.jp/tdr/bfree/food.html">飲食限制說明</a></td></tr>
-    <tr><td>景點</td><td><a target="_blank" href="https://www.tokyo-park.or.jp/park/kiyosumi/index.html">清澄庭園</a>、<a target="_blank" href="https://www.tsukiji.or.jp/calendar/">築地場外市場</a>、<a target="_blank" href="https://www.jalan.net/kankou/spt_13107ad3352086481/">晴空塔</a>、<a target="_blank" href="https://www.jalan.net/kankou/spt_guide000000179688/">すみだ水族館</a></td></tr>
-    <tr><td>餐廳</td><td><a target="_blank" href="https://www.fukagawajuku.com/access_hachiman.html">深川宿</a>、<a target="_blank" href="https://monja.gr.jp/blog/kondo-special-monja/">近どう</a>、<a target="_blank" href="http://www.tempura.co.jp/access.html">大黒家</a></td></tr>
-    <tr><td>其他</td><td><a target="_blank" href="https://www.evaair.com/zh-tw/fly-prepare/flying-with-eva/food-and-beverages/special-meals/">長榮特別餐</a>、<a target="_blank" href="https://www.roc-taiwan.org/jp/index.html">駐日代表處</a></td></tr>
-    <tr><td>未查證</td><td>交通卡、地鐵站序與轉乘、日本與韓式料理食材常識、Safety tips App（來自訓練資料）</td></tr>
+    <tr><td>飯店</td><td><a target="_blank" href="https://richmondhotel.jp/monzennakacho/guide/">京成リッチモンド 公式</a></td></tr>
+    <tr><td>迪士尼海洋</td><td><a target="_blank" href="https://www.tokyodisneyresort.jp/tds/daily/calendar/20261101/">11/1 營業時間</a>、<a target="_blank" href="https://www.tokyodisneyresort.jp/tds/restaurant/food/413/">Snuggly Duckling</a>、<a target="_blank" href="https://www.temapa.jp/articles/guide/disney-premier-access-price-list-2026/">DPA 價格</a>、<a target="_blank" href="https://disney-news.com/guide/dpa-guide">DPA 規則</a>（非官方）</td></tr>
+    <tr><td>景點</td><td><a target="_blank" href="https://www.tokyo-park.or.jp/park/kiyosumi/index.html">清澄庭園</a>、<a target="_blank" href="https://tokyotouristinfo.com/detail/K0002">淺草文化觀光中心</a>、<a target="_blank" href="https://www.jalan.net/kankou/spt_13107ad3352086481/">晴空塔</a>、<a target="_blank" href="https://www.jalan.net/kankou/spt_guide000000179688/">すみだ水族館</a></td></tr>
+    <tr><td>餐廳</td><td><a target="_blank" href="https://www.fukagawajuku.com/access_hachiman.html">深川宿</a>、<a target="_blank" href="https://timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/%E9%8A%80%E5%BA%A7-%E7%AF%9D-%E6%9C%AC%E5%BA%97">銀座篝</a>、<a target="_blank" href="https://tokyo.itot.jp/morishita/263">PARK STAND</a>、<a target="_blank" href="http://www.tempura.co.jp/access.html">大黒家</a>、<a target="_blank" href="https://monja.gr.jp/blog/kondo-special-monja/">近どう</a>、<a target="_blank" href="https://cafesnap.me/c/2055">FROM AFAR 遷址</a></td></tr>
+    <tr><td>其他</td><td><a target="_blank" href="https://www.evaair.com/zh-tw/fly-prepare/flying-with-eva/food-and-beverages/special-meals/">長榮特別餐</a>、<a target="_blank" href="https://www.roc-taiwan.org/jp/index.html">駐日代表處</a>、<a target="_blank" href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html">日本國定假日</a></td></tr>
+    <tr><td>附件</td><td>Tokyo_2026-1031-1103_Itinerary.pdf（Threads／Instagram 熱門推薦整理）：園內餐廳、美食清單、備選景點，標「附件資料」者未另外查證</td></tr>
+    <tr><td>未查證</td><td>交通卡、地鐵站序與轉乘、日本料理食材常識、Safety tips App（來自訓練資料）</td></tr>
   </table>
 </section>
 
-<footer>天氣為預報值，出發前請再確認｜製作於 2026/10/30</footer>
+<footer>天氣為預報值，出發前請再確認｜更新於 2026/10/30</footer>
 </div>
 
 <script>
